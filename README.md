@@ -46,14 +46,4 @@ To try different environments, replace `--task` with one of the following:
 - Isaac-Rotate-Cube-Shadow-v0  
 - Isaac-Rotate-Cube-Franka-v0  
 - Isaac-Repose-Cube-Shadow-Direct-v0
-## Play with trained agents
 
-1. Place the `logs` folder in:
-   ```
-     your_directory/
-   ```
-
-2. Run:
-```
-python scripts\reinforcement_learning\rsl_rl\play.py --task Isaac-LiftMultiple-Cube-Shadow-v0 --num_envs 10
-```
